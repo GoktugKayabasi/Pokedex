@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gohs Pokedex</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffcb05, #3b4cca);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .hat {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: red;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin: 15px 0;
+        }
+        .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            background: #ffcb05;
+            color: #333;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #f5b800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hat">Gohs</div>
+        <div class="title">Pokedex</div>
+        <div class="description">Click below to view the interactive mobile Pokedex prototype.</div>
+        <a class="button" href="https://www.figma.com/proto/xkhVtHDBqRumQJFZ4desaB/Pokedex?page-id=0%3A1&node-id=11-8&p=f&viewport=266%2C439%2C0.11&t=TKxGdvOaY4Ev6l4c-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=11%3A8" target="_blank">View Project</a>
+    </div>
+</body>
+</html>
